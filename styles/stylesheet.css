@@ -67,8 +67,18 @@ table {
     padding-top:20px;
 }
 
+#appsicon:hover {
+    box-shadow: 0px 0px 0px 6px rgb(233, 233, 233);
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
 .header-link-text {
     padding-top:5px
+}
+
+.header-link-text:hover {
+    text-decoration: underline;
 }
 
 #login-button {
@@ -93,7 +103,6 @@ table {
     display:flex;
     justify-content: center;
     align-content:flex-end;
-    background-color:thistle;
     width:100%;
     min-height:0px;
     
@@ -103,4 +112,64 @@ table {
     height:92px;
     width:272px;
     margin-top:auto;
+}
+
+#searchbar-container {
+    width:500px;
+    height:40px;
+    margin:auto;
+    background-color: rgba(145, 153, 153, 0);
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display:flex;
+    margin-top: 1em;
+}
+
+#searchbar-container:hover {
+    box-shadow: 0px 0px 6px rgb(173, 173, 173);
+    border-color:white;
+}
+
+#search-bar-icon {
+    margin-top:0.3em;
+    margin-left:0.4em;
+    color:rgb(129, 129, 129)
+}
+
+#search-bar-icon-keyboard {
+    margin-top:0.3em;
+    color:rgb(129, 129, 129);
+}
+
+#searchbar-input {
+    width: 425px;
+    border-color: transparent;
+    outline:none;
+}
+
+#search-buttons-div {
+    margin:auto;
+    width:400px;
+    display:flex;
+    justify-content: center;
+}
+
+.search-button {
+    padding:10px;
+    margin-top:2em;
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+    border-color: transparent;
+    background-color:rgba(233, 233, 233, 0.295);
+    border-radius:5px;
+    font-family: arial,sans-serif;
+    color:rgb(66, 66, 66)
+}
+
+.search-button:hover {
+    box-shadow: 0px 0px 2px rgb(173, 173, 173);
+}
+
+#real-footer {
+    
 }
